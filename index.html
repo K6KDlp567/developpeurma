@@ -4,12 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Profil Développeur | Mise à niveau</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <h1>Jean Développeur</h1>
-    <p>Développeur Web Junior en formation intensive</p>
-    <img src="img.png" alt="personne assit au tour du feux">
+    <p class="ange">Développeur Web Junior en formation intensive</p>
+    
     <nav>
       <ul>
         <li><a href="#a-propos">À propos</a></li>
@@ -20,13 +21,15 @@
   </header>
 
   <main>
-    <section id="a-propos">
+    <section class="a-propos">
       <h2>À propos de moi</h2>
+      <div class="line"></div>
       <p>Passionné par les technologies du web, je construis des applications complètes du front-end au back-end.</p>
     </section>
 
-    <section id="competences">
+    <section class="competences">
       <h2>Stack Technique</h2>
+      <div class="line"></div>
       <ul>
         <li>HTML5 sémantique & accessibilité</li>
         <li>CSS3 (Flexbox & Grid)</li>
@@ -35,8 +38,8 @@
       </ul>
     </section>
 
-    <section id="contact">
-      <h2>Me contacter</h2>
+    <section class="contact">
+      <h2 class="titre">Me contacter</h2>
       <form action="#" method="POST">
         <div>
           <label for="nom">Nom complet :</label>
@@ -53,7 +56,7 @@
           <textarea id="message" name="message" rows="4" cols="40" placeholder="Écrivez votre message ici..."></textarea>
         </div>
         <br>
-        <button type="submit">Envoyer</button>
+        <button class="submit">Envoyer</button>
       </form>
     </section>
     <section id="projets">
